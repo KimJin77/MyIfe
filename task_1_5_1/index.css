@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background-color: #dedede;
+}
+
+header {
+  display: table;
+  width: 100%;
+  height: 60px;
+  background-color: #262626;
+}
+
+header span {
+  display: table-cell;
+  vertical-align: middle;
+  height: 70px;
+}
+
+header span img {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  margin-right: 20px;
+  font-size: 13px;
+  line-height: 70px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:visited {
+  color: gray;
+}
+
+label {
+  margin-left: 5px;
+}
+
+aside {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  width: 365px;
+
+  background-color: white;
+  box-shadow: 2px 2px 2px #848484;
+}
+
+aside h3 {
+  padding-left: 12px;
+  border-left: 3px solid #cdcdcd;
+}
+
+.container {
+  background-color: #dedede;
+
+  overflow: auto;
+}
+
+form {
+  margin-top: 20px;
+
+  font-size: 12px;
+}
+
+.line {
+  margin-top: 12px;
+}
+
+.leftDiv {
+  float: left;
+  width: 85px;
+
+  text-align: right;
+}
+
+.rightDiv {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.instruction {
+  margin-top: 14px;
+
+  color: #8b8e87;
+}
+
+.btn-default {
+  display: block;
+  margin-top: 12px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #3050d3;
+  color: white;
+}
+
+article {
+  margin: 20px 445px 20px 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #848484;
+}
+
+.cg {
+  color: gray;
+}
+
+.image {
+  width: 300px;
+  height: 240px;
+}
+
+.no-list {
+  list-style: none;
+}
+
+figure {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 120px;
+  height: 120px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+figure img {
+  margin-top: 5px;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+thead {
+  color: white;
+  background-color: #333;
+}
+
+tfoot {
+  background-color: #ccc;
+}
+
+footer {
+  position: relative;
+  height: 70px;
+
+  font-size: 13px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*Footer End*/
